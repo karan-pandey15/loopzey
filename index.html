@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Loopzey is a social platform for live streaming, connecting, creating, shopping, and earning.">
+  <title>Loopzey – Watch, Connect, Create &amp; Earn</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg site-navbar" aria-label="Primary navigation">
+      <div class="container">
+        <a class="navbar-brand site-logo" href="#home" aria-label="Loopzey home">
+          <img src="assets/images/loopzey-logo.svg" alt="Loopzey" width="164" height="45">
+        </a>
+
+        <button
+          class="navbar-toggler btn-icon"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#mobileNavigation"
+          aria-controls="mobileNavigation"
+          aria-label="Open navigation menu"
+        >
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+
+        <div
+          class="offcanvas offcanvas-end mobile-navigation"
+          tabindex="-1"
+          id="mobileNavigation"
+          aria-labelledby="mobileNavigationLabel"
+        >
+          <div class="offcanvas-header d-lg-none">
+            <a class="site-logo" href="#home" aria-label="Loopzey home">
+              <img src="assets/images/loopzey-logo.svg" alt="Loopzey" width="148" height="41">
+            </a>
+            <h2 class="visually-hidden" id="mobileNavigationLabel">Main menu</h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close navigation menu"
+            ></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav navbar-menu" aria-label="Main menu">
+              <li class="nav-item">
+                <a class="nav-link navbar-link active" href="#home" aria-current="page">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-link" href="#live">Live</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-link" href="#social">Social</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-link" href="#creators">Creators</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-link" href="#shop">Shop</a>
+              </li>
+            </ul>
+
+            <div class="navbar-actions">
+              <a class="btn-outline-custom" href="#login">Login</a>
+              <a class="btn-gradient" href="#signup">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero-section" id="home" aria-labelledby="heroTitle">
+        <div class="row hero-layout align-items-center">
+          <div class="col-12 col-lg-4 hero-content">
+            <img class="hero-giftMobile " src="assets/images/hero-gift-mobile.webp" alt="Loopzey" width="164" height="45" />
+            <div class="hero-badge badge-pill">
+              <span aria-hidden="true">✨</span>
+              <span>India &amp; USA’s Next-Gen Social, Live &amp; Commerce Platform</span>
+            </div>
+
+            <h1 class="hero-title" id="heroTitle">
+              <span class="hero-title-watch">Watch.</span>
+              <span class="hero-title-connect">Connect.</span>
+              <br class="hero-title-break">
+              <span class="hero-title-create">Create.</span>
+              <span class="hero-title-earn">Earn.</span>
+            </h1>
+
+            <p class="hero-description">
+              Go live, share moments, receive gifts, shop your favorites and earn — all on Loopzey.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn-primary-custom btn-lg-custom btn-block-mobile" href="#live">
+                <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M8 5.1v13.8a1 1 0 0 0 1.53.85l10.5-6.9a1 1 0 0 0 0-1.7L9.53 4.25A1 1 0 0 0 8 5.1Z"/>
+                </svg>
+                Explore Loopzey
+              </a>
+              <a class="btn-outline-custom btn-lg-custom btn-block-mobile" href="#signup">
+                <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M19 8v6M22 11h-6"/>
+                </svg>
+                Join Now — It’s Free
+              </a>
+            </div>
+
+            <div class="hero-features" aria-label="Loopzey features">
+              <article class="hero-feature-item">
+                <span class="hero-feature-icon bg-soft-purple text-purple" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="6" width="14" height="12" rx="3"/>
+                    <path d="m17 10 4-2v8l-4-2Z"/>
+                  </svg>
+                </span>
+                <span class="hero-feature-copy">
+                  <strong>Live Streaming</strong>
+                  <small>Go Live &amp; Earn</small>
+                </span>
+              </article>
+
+              <article class="hero-feature-item">
+                <span class="hero-feature-icon bg-soft-blue" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 15a4 4 0 0 1-4 4H8l-5 3 1.7-5A7 7 0 0 1 3 12a7 7 0 0 1 7-7h6a4 4 0 0 1 4 4Z"/>
+                    <path d="M8 10h8M8 14h5"/>
+                  </svg>
+                </span>
+                <span class="hero-feature-copy">
+                  <strong>Social Feed</strong>
+                  <small>Share &amp; Connect</small>
+                </span>
+              </article>
+
+              <article class="hero-feature-item">
+                <span class="hero-feature-icon bg-soft-pink text-pink" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15a4 4 0 0 1-4 4H8l-5 3 1.7-5A7 7 0 0 1 3 12a7 7 0 0 1 7-7h7a4 4 0 0 1 4 4Z"/>
+                    <path d="M8 12h.01M12 12h.01M16 12h.01"/>
+                  </svg>
+                </span>
+                <span class="hero-feature-copy">
+                  <strong>Live Chat</strong>
+                  <small>Real-time Talk</small>
+                </span>
+              </article>
+
+              <article class="hero-feature-item">
+                <span class="hero-feature-icon bg-soft-orange text-orange" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 8h16l-1 13H5Z"/>
+                    <path d="M9 8V6a3 3 0 0 1 6 0v2M3 8h18"/>
+                  </svg>
+                </span>
+                <span class="hero-feature-copy">
+                  <strong>Live Shopping</strong>
+                  <small>Shop &amp; Earn</small>
+                </span>
+              </article>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-7 col-lg-5 hero-visual" id="live">
+            <div class="hero-live-crop">
+              <img
+                class="hero-live-image"
+                src="assets/images/hero-live.webp"
+                alt="Ananya Live streaming on Loopzey with viewer reactions and gifts"
+                width="1536"
+                height="1024"
+              >
+              <img class="hero-Mobile" src="assets/images/hero-live-mobile.webp" alt="Loopzey gift box with a play button" width="164" height="45">
+            </div>
+            <div class="gift-count-list" aria-label="Popular live gifts">
+              <div class="gift-count-card"><span>🌹</span><small>Rose</small><strong>x10</strong></div>
+              <div class="gift-count-card"><span>💗</span><small>Love You</small><strong>x5</strong></div>
+              <div class="gift-count-card"><span>💎</span><small>Diamond</small><strong>x100</strong></div>
+              <div class="gift-count-card"><span>🚀</span><small>Rocket</small><strong>x8</strong></div>
+            </div>
+          </div>
+
+          <aside class="col-12 col-md-5 col-lg-3 hero-side-content" aria-label="Loopzey promotions">
+            <div class="app-card download-card">
+              <h2>Download Loopzey App</h2>
+              <p>Experience Loopzey on the go!</p>
+              <div class="download-options">
+                <div class="download-option">
+                  <img class="qr-code" src="assets/images/qr-code.png" alt="QR code to download Loopzey from Google Play" width="329" height="284">
+                  <a class="store-badge" href="#download" aria-label="Get Loopzey on Google Play">
+                    <img src="assets/images/logos_google-play-icon.svg" alt="">
+                    <span><small>GET IT ON</small><strong>Google Play</strong></span>
+                  </a>
+                </div>
+                <div class="download-option">
+                  <img class="qr-code" src="assets/images/qr-code.png" alt="QR code to download Loopzey from the App Store" width="329" height="284">
+                  <a class="store-badge" href="#download" aria-label="Download Loopzey on the App Store">
+                    <img src="assets/images/ic_baseline-apple.svg" alt="">
+                    <span><small>Download on the</small><strong>App Store</strong></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="gradient-card gift-promo-card">
+              <div class="gift-promo-copy">
+                <h2>Gift. Connect. Talk Live.</h2>
+                <p>Send gifts, start a 1-on-1 video call and connect with your favorite creators.</p>
+                <a class="promo-learn-button" href="#social">
+                  Learn More
+                  <img src="assets/images/flowbite_arrow-right-outline.svg" alt="">
+                </a>
+              </div>
+              <img class="gift-promo-art" src="assets/images/connect-gift.webp" alt="Purple gift box with a play button" width="991" height="821">
+            </div>
+          </aside>
+        </div>
+    </section>
+
+    <section class="benefits-section" id="creators" aria-labelledby="benefitsTitle">
+        <h2 class="visually-hidden" id="benefitsTitle">Benefits for everyone</h2>
+        <div class="benefits-grid">
+          <article class="benefit-card benefit-viewers">
+            <h3><span><img src="assets/images/mdi_user.svg" alt=""></span> Benefits for Viewers</h3>
+            <ul><li>Watch high-quality live streams</li><li>Chat &amp; connect in real-time</li><li>Send gifts &amp; support creators</li><li>Earn XP &amp; level up</li><li>Unlock badges &amp; rewards</li><li>Participate in events</li></ul>
+            <img class="benefit-art" src="assets/images/viewers.webp" alt="Viewer enjoying Loopzey on her phone" width="1027" height="889">
+          </article>
+          <article class="benefit-card benefit-creators">
+            <h3><span><img src="assets/images/material-symbols_crown.svg" alt=""></span> Benefits for Creators</h3>
+            <ul><li>Go live &amp; grow your audience</li><li>Receive gifts &amp; earn real money</li><li>Unlock levels &amp; exclusive perks</li><li>Get featured &amp; go viral</li><li>Analytics to grow faster</li><li>Build your fan community</li></ul>
+            <img class="benefit-art" src="assets/images/creators.webp" alt="Loopzey creator holding a trophy" width="864" height="996">
+            <div class="creator-earnings"><small>Total Earnings</small><strong>₹1,25,680</strong><span>↗ 32.5%</span><svg aria-hidden="true" viewBox="0 0 100 28"><polyline points="0,24 12,17 24,20 36,9 49,15 61,4 74,10 86,2 100,7"/></svg></div>
+          </article>
+          <article class="benefit-card benefit-streamers">
+            <h3><span><img src="assets/images/mingcute_video-camera-fill.svg" alt=""></span> Benefits for Live Streamers</h3>
+            <ul><li>Host amazing live shows</li><li>Engage viewers with effects</li><li>Receive gifts &amp; tips</li><li>Collaborate with brands</li><li>Monetize your content</li><li>Level up &amp; unlock perks</li></ul>
+            <img class="benefit-art" src="assets/images/live-streamers.webp" alt="Loopzey live streamer speaking into a microphone" width="920" height="856">
+            <div class="streamer-badge">⭐ <span>Top Streamer<strong>Level 45</strong></span></div>
+          </article>
+          <article class="benefit-card benefit-shoppers" id="shop">
+            <h3><span><img src="assets/images/mdi_cart.svg" alt=""></span> Benefits for Shoppers</h3>
+            <ul><li>Shop during live streams</li><li>Exclusive live discounts</li><li>Real-time product demo</li><li>Secure payments</li><li>Fast &amp; easy delivery</li><li>Best deals everyday</li></ul>
+            <img class="benefit-art" src="assets/images/shoppers.webp" alt="Colorful live-shopping bags and discount symbols" width="914" height="792">
+          </article>
+        </div>
+    </section>
+
+    <section class="engagement-section" id="social" aria-label="Loopzey rewards and social feed">
+        <div class="engagement-grid">
+          <article class="xp-card">
+            <div class="xp-copy">
+              <h2>Level &amp; XP System</h2>
+              <p>Earn XP, climb levels &amp; unlock amazing rewards!</p>
+              <ul>
+                <li>Watch live streams</li>
+                <li>Send gifts</li>
+                <li>Go live</li>
+                <li>Post content</li>
+                <li>Get bonus XP</li>
+                <li>Daily login &amp; streaks</li>
+                <li>Invite friends</li>
+              </ul>
+            </div>
+            <div class="xp-progress-area">
+              <div class="xp-stage">
+                <div class="xp-level xp-level-start">
+                  <img src="assets/images/purple-badge.png" alt="Purple rising-star badge" width="595" height="711">
+                  <span><b>Level 12</b><small>Rising Star</small></span>
+                </div>
+                <img class="xp-trophy" src="assets/images/trophy.webp" alt="Golden superstar trophy" width="946" height="707">
+                <div class="xp-level xp-level-end">
+                  <span><b>Level 25</b><small>Super Star</small></span>
+                  <img src="assets/images/blue-badge.png" alt="Blue superstar badge" width="595" height="773">
+                </div>
+                <div class="xp-progress-track" role="progressbar" aria-label="XP progress" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"><span></span></div>
+              </div>
+              <strong class="xp-progress-value">2,450 / 5,000 XP</strong>
+              <div class="xp-perks">
+                <span><img src="assets/images/star.png" alt=""><b>Exclusive Badge</b></span>
+                <span><img src="assets/images/trophy-2.png" alt=""><b>Higher Ranking</b></span>
+                <span><img src="assets/images/coin-g.png" alt=""><b>More Earnings</b></span>
+                <span><img src="assets/images/pearl.png" alt=""><b>Special Perks</b></span>
+                <span><img src="assets/images/blue-check.png" alt=""><b>Verified Profile</b></span>
+              </div>
+            </div>
+          </article>
+          <article class="social-feed-card">
+            <div class="social-copy"><h2>Social. Share. Connect.</h2><p>Post updates, photos, reels, stories and more. Follow your favorites and stay connected with people around the world.</p><a class="btn-outline-custom btn-xs-custom" href="#social">Visit Social Feed →</a></div>
+            <div class="feed-preview">
+              <div class="feed-tabs" role="tablist" aria-label="Social feed filters">
+                <button type="button" role="tab" aria-selected="false" tabindex="-1" data-feed-tab="following">Following</button>
+                <button class="active" type="button" role="tab" aria-selected="true" data-feed-tab="for-you"><span aria-hidden="true">✦</span> For You</button>
+                <button type="button" role="tab" aria-selected="false" tabindex="-1" data-feed-tab="trending">Trending</button>
+              </div>
+              <div class="feed-cards" role="tabpanel" aria-live="polite">
+                <article class="feed-post-card">
+                  <img src="assets/images/feed-sunset.jpg" alt="Sunset over a tropical beach" width="700" height="465">
+                  <div class="feed-card-overlay"><strong data-feed-title>Sunset Vibes</strong><small data-feed-author>Priya_Sky</small><span><b data-feed-likes>♥ 12K</b><b data-feed-comments>◉ 120</b></span></div>
+                </article>
+                <article class="feed-post-card">
+                  <img src="assets/images/feed-travel.jpg" alt="Friends traveling together" width="700" height="1050">
+                  <div class="feed-card-overlay"><strong data-feed-title>Travel with me</strong><small data-feed-author>Wanderlust</small><span><b data-feed-likes>♥ 8.5K</b><b data-feed-comments>◉ 95</b></span></div>
+                </article>
+                <article class="feed-post-card">
+                  <img src="assets/images/feed-music.jpg" alt="Colorful live music festival" width="700" height="467">
+                  <div class="feed-card-overlay"><strong data-feed-title>Music is life</strong><small data-feed-author>BeatMaster</small><span><b data-feed-likes>♥ 6.2K</b><b data-feed-comments>◉ 80</b></span></div>
+                </article>
+              </div>
+            </div>
+          </article>
+        </div>
+    </section>
+
+    <section class="statistics-section" aria-label="Loopzey platform statistics">
+      <div class="statistics-strip">
+        <div class="stat-item mbl1">
+          <!-- <img src="assets/images/mdi_user.svg" alt=""> -->
+           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4C13.0609 4 14.0783 4.42143 14.8284 5.17157C15.5786 5.92172 16 6.93913 16 8C16 9.06087 15.5786 10.0783 14.8284 10.8284C14.0783 11.5786 13.0609 12 12 12C10.9391 12 9.92172 11.5786 9.17157 10.8284C8.42143 10.0783 8 9.06087 8 8C8 6.93913 8.42143 5.92172 9.17157 5.17157C9.92172 4.42143 10.9391 4 12 4ZM12 14C16.42 14 20 15.79 20 18V20H4V18C4 15.79 7.58 14 12 14Z" fill="black"/>
+          </svg>
+          <div class="stat-copy">
+            <strong>2M+</strong><small>Active Users</small>
+          </div>
+        </div>
+        <div class="stat-item mbl2">
+          <!-- <img src="assets/images/mingcute_video-camera-fill.svg" alt=""> -->
+           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 7C16.0004 7.715 15.809 8.41703 15.446 9.033C16.1564 9.13981 16.805 9.49801 17.2737 10.0425C17.7423 10.587 18.0001 11.2816 18 12V12.21L19.713 11.154C19.9402 11.014 20.2006 10.9371 20.4674 10.9313C20.7343 10.9255 20.9978 10.991 21.2308 11.1211C21.4639 11.2511 21.658 11.4409 21.7933 11.671C21.9285 11.9011 21.9998 12.1631 22 12.43V17.568C22 17.835 21.9288 18.0971 21.7936 18.3273C21.6585 18.5576 21.4644 18.7476 21.2313 18.8777C20.9982 19.0079 20.7346 19.0734 20.4677 19.0677C20.2008 19.0619 19.9403 18.9851 19.713 18.845L18 17.79V18C18 18.7957 17.6839 19.5587 17.1213 20.1213C16.5587 20.6839 15.7956 21 15 21H5C4.20435 21 3.44129 20.6839 2.87868 20.1213C2.31607 19.5587 2 18.7957 2 18V12C1.99992 11.4645 2.14315 10.9388 2.41483 10.4774C2.68651 10.016 3.07674 9.6357 3.545 9.376C3.10085 8.67688 2.91903 7.8429 3.03187 7.02235C3.14472 6.2018 3.5449 5.44785 4.16128 4.89458C4.77766 4.3413 5.57028 4.02454 6.39821 4.00064C7.22614 3.97673 8.03572 4.24721 8.683 4.764C9.16186 4.05348 9.85621 3.5155 10.6638 3.22929C11.4714 2.94307 12.3496 2.92374 13.169 3.17414C13.9884 3.42455 14.7058 3.93145 15.2154 4.62021C15.7251 5.30897 16.0001 6.14318 16 7ZM12 5C11.4696 5 10.9609 5.21071 10.5858 5.58579C10.2107 5.96086 10 6.46957 10 7C10 7.53043 10.2107 8.03914 10.5858 8.41421C10.9609 8.78929 11.4696 9 12 9C12.5304 9 13.0391 8.78929 13.4142 8.41421C13.7893 8.03914 14 7.53043 14 7C14 6.46957 13.7893 5.96086 13.4142 5.58579C13.0391 5.21071 12.5304 5 12 5ZM6.5 9C6.89782 9 7.27936 8.84197 7.56066 8.56066C7.84196 8.27936 8 7.89783 8 7.5C8 7.10218 7.84196 6.72064 7.56066 6.43934C7.27936 6.15804 6.89782 6 6.5 6C6.10218 6 5.72064 6.15804 5.43934 6.43934C5.15804 6.72064 5 7.10218 5 7.5C5 7.89783 5.15804 8.27936 5.43934 8.56066C5.72064 8.84197 6.10218 9 6.5 9Z" fill="black"/>
+          </svg>
+          <div class="stat-copy">
+            <strong>50K+</strong><small>Live Creators</small>
+          </div>
+        </div>
+        <div class="stat-item mbl3">
+          <!-- <img src="assets/images/teenyicons_gift-solid.svg" alt=""> -->
+           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.2 1.23864e-07C6.13913 1.23864e-07 5.12172 0.421427 4.37157 1.17157C3.62143 1.92172 3.2 2.93913 3.2 4V4.4576C3.2 5.1744 3.4128 5.8416 3.7792 6.4H2.4C1.76348 6.4 1.15303 6.65286 0.702944 7.10294C0.252856 7.55303 0 8.16348 0 8.8L0 10.4C0 11.0365 0.252856 11.647 0.702944 12.0971C1.15303 12.5471 1.76348 12.8 2.4 12.8H11.2V6.4H12.8V12.8H21.6C22.2365 12.8 22.847 12.5471 23.2971 12.0971C23.7471 11.647 24 11.0365 24 10.4V8.8C24 8.16348 23.7471 7.55303 23.2971 7.10294C22.847 6.65286 22.2365 6.4 21.6 6.4H20.2208C20.5872 5.8416 20.8 5.1744 20.8 4.4576V4C20.8 2.93913 20.3786 1.92172 19.6284 1.17157C18.8783 0.421427 17.8609 1.23864e-07 16.8 1.23864e-07C14.7632 1.23864e-07 12.9792 1.088 12 2.7136C11.502 1.88563 10.7982 1.20059 9.95713 0.72509C9.11603 0.249588 8.16621 -0.000203067 7.2 1.23864e-07ZM12.8 6.4H17.2576C18.3296 6.4 19.2 5.5296 19.2 4.4576V4C19.2 3.36348 18.9471 2.75303 18.4971 2.30294C18.047 1.85286 17.4365 1.6 16.8 1.6C15.7391 1.6 14.7217 2.02143 13.9716 2.77157C13.2214 3.52172 12.8 4.53913 12.8 5.6V6.4ZM11.2 6.4H6.7424C5.6704 6.4 4.8 5.5296 4.8 4.4576V4C4.8 3.36348 5.05286 2.75303 5.50294 2.30294C5.95303 1.85286 6.56348 1.6 7.2 1.6C7.72529 1.6 8.24543 1.70346 8.73073 1.90448C9.21604 2.1055 9.65699 2.40014 10.0284 2.77157C10.3999 3.14301 10.6945 3.58396 10.8955 4.06927C11.0965 4.55457 11.2 5.07471 11.2 5.6V6.4Z" fill="black"/>
+            <path d="M11.2 14.4H1.60001V20C1.60001 21.0609 2.02143 22.0783 2.77158 22.8284C3.52172 23.5786 4.53914 24 5.60001 24H11.2V14.4ZM12.8 24H18.4C19.4609 24 20.4783 23.5786 21.2284 22.8284C21.9786 22.0783 22.4 21.0609 22.4 20V14.4H12.8V24Z" fill="black"/>
+          </svg>
+          <div class="stat-copy">
+            <strong>10M+</strong><small>Gifts Sent Daily</small>
+          </div>
+        </div>
+        <div class="stat-item mbl4">
+          <!-- <img src="assets/images/at-icons_coins.svg" alt=""> -->
+           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 19.5C21 21.1575 17.6415 22.5 13.5 22.5C9.3585 22.5 6 21.1575 6 19.5V18.9555C6.445 19.0725 6.9065 19.171 7.3845 19.251C8.90923 19.4999 10.4584 19.5639 11.9985 19.4415C12.4885 19.4785 12.989 19.498 13.5 19.5C15.7125 19.5 17.7855 19.1445 19.3605 18.5145C19.953 18.2775 20.5155 17.9835 21 17.6235V19.5ZM3 13.1235C3.483 13.4835 4.047 13.7775 4.6395 14.0145C6.2145 14.6445 8.2875 15 10.5 15C11.01 14.999 11.51 14.979 12 14.94C12.496 14.98 12.996 15 13.5 15C14.562 15 15.6195 14.916 16.6155 14.751C17.0935 14.671 17.555 14.5725 18 14.4555V15C18 16.6575 14.6415 18 10.5 18C6.3585 18 3 16.6575 3 15V13.1235ZM21 10.5C21 12.1575 17.6415 13.5 13.5 13.5C9.3585 13.5 6 12.1575 6 10.5V8.6235C6.48 8.9805 7.0425 9.276 7.6395 9.5145C8.52604 9.8559 9.44613 10.1028 10.3845 10.251C11.3805 10.416 12.4395 10.5 13.5 10.5C14.562 10.5 15.6195 10.416 16.6155 10.251C17.5539 10.1028 18.474 9.8559 19.3605 9.5145C19.9575 9.2745 20.52 8.9805 21 8.6235V10.5Z" fill="black"/>
+            <path d="M13.5 3C17.6415 3 21 4.3425 21 6C21 6.393 20.8065 6.783 20.43 7.149C20.052 7.512 19.5 7.842 18.8025 8.121C18.0166 8.42274 17.2011 8.64094 16.3695 8.772C15.459 8.922 14.484 9 13.5 9C12.516 9 11.5395 8.922 10.6305 8.772C9.79891 8.64094 8.98342 8.42274 8.1975 8.121C7.5 7.842 6.948 7.512 6.57 7.149C6.1935 6.783 6 6.393 6 6C6 4.3425 9.3585 3 13.5 3ZM12 7.5H15V4.5H12V7.5Z" fill="black"/>
+          </svg>
+          <div class="stat-copy">
+            <strong>₹500Cr+</strong><small>Earnings to Creators</small>
+          </div>
+        </div>
+        <div class="stat-item mbl5">
+          <!-- <img src="assets/images/el_globe.svg" alt=""> -->
+           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0ZM9.02508 3.25228C9.46206 3.48756 9.97858 3.71014 10.5752 3.9202C11.1719 4.13026 11.7644 4.23556 12.3526 4.23556C12.7867 4.23472 13.2198 4.12698 13.5881 3.85714C13.9448 3.64338 14.2901 3.47282 14.7477 3.51672C15.218 3.5681 15.7132 3.73002 16.2097 3.75684C16.8316 4.09296 17.4369 4.51252 18.0251 5.01672C17.7394 5.03352 17.4364 5.0636 17.1171 5.10564C16.7977 5.14768 16.4872 5.21006 16.1847 5.29408C15.8822 5.3781 15.6047 5.4879 15.3526 5.62234C15.1005 5.7568 14.9155 5.92446 14.7979 6.12614C14.613 6.42866 14.483 6.68506 14.4073 6.89514C14.2517 7.33072 14.2885 8.0257 13.9286 8.34498C13.853 8.3954 13.7898 8.45404 13.7394 8.52126C13.689 8.5885 13.6679 8.67648 13.6763 8.7857C13.6847 8.89494 13.7396 9.0506 13.8405 9.25228C13.8909 9.36994 13.9322 9.51276 13.9658 9.68084C14.2851 9.67982 14.6163 9.63178 14.899 9.42856L16.5631 9.5798C16.9927 9.09594 17.4933 9.08788 17.924 9.5798C18.0585 9.71424 18.2014 9.9165 18.3526 10.1854L17.6467 10.6641C17.4786 10.6137 17.2771 10.513 17.0418 10.3617C16.9245 10.2945 16.8064 10.2185 16.6885 10.1345C16.0178 9.809 14.7045 10.1881 13.9658 10.2356C13.8695 10.4282 13.7919 10.6168 13.5631 10.6642C13.5233 10.7888 13.5617 10.9225 13.5122 11.0426C13.1928 11.5468 13.0838 12.0761 13.1847 12.6307C13.3695 13.5047 13.8229 13.9415 14.5456 13.9415H14.823C15.1759 13.9415 15.424 13.9581 15.5669 13.9917C15.7098 14.0253 15.7812 14.0508 15.7812 14.0677C15.6972 14.2693 15.6678 14.4287 15.693 14.5464C15.7763 14.9239 16.0486 15.2095 16.0205 15.6178C15.9944 16.1371 15.8312 16.5849 16.0084 17.1057C16.2105 17.6108 16.4643 18.1594 16.6513 18.6809C16.7269 18.8322 16.8404 18.9247 16.9917 18.9583C17.2942 19.0087 17.6724 18.8072 18.1262 18.3534C18.4623 17.9836 18.6556 17.5799 18.706 17.1429C18.7725 16.7561 19.0452 16.4125 19.1345 16.0084V15.6809C19.2184 15.5128 19.2899 15.3489 19.3488 15.1893C19.4329 14.9572 19.4421 14.6615 19.462 14.3952C19.7263 14.131 19.9841 13.8951 20.168 13.5631C20.2856 13.3614 20.3195 13.1855 20.269 13.0342C20.2529 13.0006 20.2108 12.9668 20.1429 12.9332L19.7645 12.782C19.7709 12.5706 20.1595 12.6021 20.3442 12.6307L21.2515 12.076C21.2179 13.2189 20.9953 14.3241 20.5836 15.3914C20.1719 16.4586 19.5628 17.4203 18.7561 18.2774C17.6805 19.4539 16.3903 20.2945 14.886 20.7987C13.3818 21.3029 11.8315 21.4036 10.2348 21.1011C10.5097 20.6155 10.6684 20.0683 10.9917 19.5882C10.9917 19.3361 11.0293 19.1218 11.1049 18.9453C11.4257 18.203 11.9493 18.0098 12.5547 17.4332C13.1657 16.7964 13.1599 16.0439 13.1847 15.1262C13.1763 14.5453 12.2475 14.1887 11.823 13.8655C10.8389 13.2024 10.214 12.2267 8.81082 12.5168C8.30932 12.5679 8.18792 12.6653 7.8146 12.3534L7.66338 12.2774L7.6763 12.2272L7.73936 12.1011C7.88996 11.9436 7.67616 11.7455 7.47416 11.8108C7.43214 11.8192 7.38628 11.8237 7.33586 11.8237C7.28978 11.5986 7.13872 11.3891 7.10866 11.1429C7.34394 11.3277 7.5462 11.4668 7.71428 11.5593C7.8823 11.6517 8.02516 11.7149 8.14286 11.7485C8.26052 11.7989 8.36126 11.8155 8.44528 11.7987C8.63016 11.765 8.73468 11.5801 8.75986 11.2439C8.78508 10.9078 8.77304 10.5213 8.72264 10.0844C8.77306 10.0172 8.80614 9.9495 8.82294 9.88224C9.00058 8.96368 9.47098 9.16512 10.1847 8.89972C10.3023 8.8325 10.3271 8.74828 10.2599 8.64744C10.2599 8.63062 10.2561 8.62236 10.2477 8.62236C10.2394 8.62236 10.2348 8.61334 10.2348 8.59652C10.6228 8.40168 10.8513 8.00274 11.092 7.63908C10.8869 7.31414 10.5686 7.04284 10.2097 6.85716C10.0173 6.6198 9.26178 6.76532 9.10032 6.37842C8.96586 6.3616 8.86512 6.33604 8.79788 6.30244C8.11724 5.86134 7.82974 5.09 7.09652 4.77736C6.80238 4.75216 6.51216 4.75668 6.22646 4.79028C7.08358 4.10122 8.01666 3.58844 9.02508 3.25228ZM2.89894 10.3617C3.0502 10.6138 3.23516 10.8409 3.45364 11.0425C4.58762 12.0843 5.65352 12.305 7.10866 12.8321C7.17582 12.8825 7.26832 12.9667 7.38602 13.0843C7.54456 13.2047 7.67872 13.3488 7.84044 13.4628C7.84044 13.5468 7.82766 13.6641 7.80244 13.8154C7.77724 13.9666 7.7727 14.2102 7.78952 14.5464C7.8381 15.4817 8.60944 16.2221 8.82296 17.1178C8.63358 18.2786 8.63088 19.4194 8.49546 20.5714C7.3526 20.1009 6.34886 19.4287 5.4833 18.5547C4.61776 17.6808 3.94934 16.6642 3.47874 15.5046C3.14262 14.6642 2.92832 13.8108 2.83588 12.9453C2.74332 12.0797 2.7644 11.2188 2.89894 10.3617Z" fill="black"/>
+          </svg>
+
+          <div class="stat-copy">
+            <strong>100+</strong><small>Countries</small>
+          </div>
+        </div>
+        <div class="trusted-creators">
+          <span class="trusted-copy"><b>Trusted by Thousands</b><small>of Creators &amp; Users Worldwide</small></span>
+          <div class="trusted-avatar-list" aria-label="Loopzey creators">
+            <img src="assets/images/viewers.webp" alt="Creator">
+            <img src="assets/images/creators.webp" alt="Creator">
+            <img src="assets/images/live-streamers.webp" alt="Creator">
+            <img src="assets/images/ananya-live-creator.png" alt="Creator">
+            <img src="assets/images/viewers.webp" alt="Creator">
+            <img src="assets/images/creators.webp" alt="Creator">
+            <span class="trusted-add" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="black"/>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><div class="footer-grid">
+      <div class="footer-brand"><img src="assets/images/logo-footer.svg" alt="Loopzey" width="148" height="41"><p>The all-in-one platform for Live Streaming, Social Connection, Live Shopping &amp; Creator Economy.</p><div class="footer-socials"><a href="#" aria-label="Instagram"><img src="assets/images/mdi_instagram.svg" alt=""></a><a href="#" aria-label="YouTube"><img src="assets/images/mdi_youtube.svg" alt=""></a><a href="#" aria-label="Facebook"><img src="assets/images/ri_facebook-fill.svg" alt=""></a><a href="#" aria-label="X"><img src="assets/images/ri_twitter-x-fill.svg" alt=""></a><a href="#" aria-label="TikTok"><img src="assets/images/ic_baseline-tiktok.svg" alt=""></a></div></div>
+      <nav class="footer-links" aria-label="Platform"><h2>Platform</h2><a href="#live">Live</a><a href="#social">Social Feed</a><a href="#creators">Creators</a><a href="#shop">Shop</a></nav>
+      <nav class="footer-links" aria-label="Support"><h2>Support</h2><a href="#">Help Center</a><a href="#">Safety Center</a><a href="#">Community Guidelines</a><a href="#">Contact Us</a></nav>
+      <nav class="footer-links" aria-label="Company"><h2>Company</h2><a href="#">About Us</a><a href="#">Careers</a><a href="#">Press</a><a href="#">Partners</a></nav>
+      <nav class="footer-links" aria-label="For Creators"><h2>For Creators</h2><a href="#">Creator Program</a><a href="#">How to Go Live</a><a href="#">Earnings Guide</a><a href="#">Brand Collaborations</a></nav>
+      <div class="footer-subscribe"><h2>Stay Updated!</h2><p>Subscribe to get the latest updates and offers.</p><form><label class="visually-hidden" for="emailAddress">Enter your email</label><input id="emailAddress" type="email" placeholder="Enter your email"><button type="submit" aria-label="Subscribe">→</button></form><div class="footer-legal"><span>© 2024 Loopzey. All rights reserved.</span> <div><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div></div></div>
+    </div></div>
+  </footer>
+
+  <script src="assets/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
